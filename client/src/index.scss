@@ -35,7 +35,7 @@ body,
   background-color: $primary-500;
 }
 
-.flexbetween {
+.flex-between {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -104,7 +104,7 @@ body,
 }
 
 .horizontal-rule {
-  margin: 15px 0px !important;
+  margin: 15px 0 !important;
   border: 0.5px solid $primary-400 !important;
 }
 
@@ -115,7 +115,7 @@ body,
   font-size: 16px !important;
   font-weight: 300 !important;
   color: $gray-400 !important;
-  padding: 0px 25px !important;
+  padding: 0 25px !important;
 }
 
 .category-icon {
@@ -278,8 +278,8 @@ body,
 }
 
 .ce-chat-card {
-  border-radius: 0px !important;
-  padding: 0px 20px !important;
+  border-radius: 0 !important;
+  padding: 0 20px !important;
 }
 
 .ce-chat-card-title {
